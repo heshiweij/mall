@@ -2,8 +2,8 @@ name: 商城
 identification: notadd/mall
 description: 'Notadd 商城模块'
 author:
-    - twilroad
-    - 269044570@qq.com
+    - Notadd
+    - notadd@ibenchu.com
 version: 1.0.0
 assets:
     administration:

@@ -26,6 +26,6 @@
 	},
 	"require-dev": {
 		"notadd/installers": "0.5.*",
-		"phpunit/phpunit": "~5.7"
+		"phpunit/phpunit": "~6.0"
 	}
 }

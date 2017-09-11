@@ -23,6 +23,17 @@ events:
         Notadd\Foundation\Http\Events\RequestHandled: Notadd\Mall\Listeners\RouteRegister
     subscribes:
         - Notadd\Mall\Listeners\RouteRegister
+menus:
+    mall:
+        icon: settings
+        permission:
+        path: '/mall'
+        text: 商城
+    mall-seller:
+        icon: settings
+        permission:
+        path: '/mall'
+        text: 商家
 migrations:
     - databases/migrations
 permissions:

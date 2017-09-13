@@ -25,7 +25,7 @@
 		"php": ">=7.0"
 	},
 	"require-dev": {
-		"notadd/installers": "0.5.*",
+		"notadd/installers": "0.9.*",
 		"phpunit/phpunit": "~6.0"
 	}
 }

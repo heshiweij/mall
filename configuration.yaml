@@ -20,9 +20,9 @@ csrf:
 entry: '/mall'
 events:
     listeners:
-        Notadd\Foundation\Http\Events\RequestHandled: Notadd\Mall\Listeners\RouteRegister
+        Notadd\Foundation\Http\Events\RequestHandled: Notadd\Mall\Subscribers\RouteRegister
     subscribes:
-        - Notadd\Mall\Listeners\RouteRegister
+        - Notadd\Mall\Subscribers\RouteRegister
 menus:
     mall:
         icon: settings

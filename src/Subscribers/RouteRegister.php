@@ -6,7 +6,7 @@
  * @copyright (c) 2017, notadd.com
  * @datetime 2017-03-22 16:50
  */
-namespace Notadd\Mall\Listeners;
+namespace Notadd\Mall\Subscribers;
 
 use Notadd\Foundation\Routing\Abstracts\RouteRegister as AbstractRouteRegister;
 use Notadd\Mall\Controllers\Api\Administration\AddressController as AddressControllerForAdministration;

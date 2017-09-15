@@ -8,11 +8,11 @@ version: 1.0.0
 assets:
     administration:
         notadd/mall:
-            permissions: 'global::mall-administration::global::global'
+            permissions: ''
             scripts: assets/mall/administration/js/module.min.js
             stylesheets: assets/mall/administration/css/module.min.css
         notadd/seller:
-            permissions: 'global::mall-seller::global::global'
+            permissions: ''
             scripts: assets/mall/seller/js/module.min.js
             stylesheets: assets/mall/seller/css/module.min.css
 csrf:
@@ -21,8 +21,6 @@ entry: '/mall'
 events:
     listeners:
         Notadd\Foundation\Http\Events\RequestHandled: Notadd\Mall\Subscribers\RouteRegister
-    subscribes:
-        - Notadd\Mall\Subscribers\RouteRegister
 menus:
     mall:
         icon: settings

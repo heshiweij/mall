@@ -30,7 +30,7 @@ menus:
     mall-seller:
         icon: settings
         permission:
-        path: '/mall'
+        path: '/seller'
         text: 商家
 migrations:
     - databases/migrations

@@ -165,7 +165,6 @@ menus:
                         text: 首页
                 icon: ios-home
                 text: 首页
-        children:
             -
                 children:
                     -
@@ -182,7 +181,6 @@ menus:
                         text: 图片空间
                 icon: pricetags
                 text: 商品
-        children:
             -
                 children:
                     -
@@ -205,7 +203,6 @@ menus:
                         text: 物流工具
                 icon: ios-paper
                 text: 订单物流
-        children:
             -
                 children:
                     -
@@ -219,7 +216,6 @@ menus:
                         text: 满减活动
                 icon: speakerphone
                 text: 促销
-        children:
             -
                 children:
                     -
@@ -248,7 +244,6 @@ menus:
                         text: 门店
                 icon: ios-analytics
                 text: 店铺
-        children:
             -
                 children:
                     -
@@ -271,7 +266,6 @@ menus:
                         text: 商品结算
                 icon: stats-bars
                 text: 统计结算
-        children:
             -
                 children:
                     -
@@ -285,7 +279,6 @@ menus:
                         text: 聊天记录查询
                 icon: android-contacts
                 text: 客服消息
-        children:
             -
                 children:
                     -
@@ -293,7 +286,6 @@ menus:
                         text: 账号管理
                 icon: android-person
                 text: 账号
-        children:
             -
                 children:
                     -

@@ -15,10 +15,6 @@
                     });
                     vm.pagination = pagination;
                     injection.loading.finish();
-                    injection.sidebar.active('mall');
-                });
-                next(() => {
-                    injection.sidebar.active('mall');
                 });
             }).catch(() => {
                 injection.loading.fail();

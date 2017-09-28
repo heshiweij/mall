@@ -12,7 +12,6 @@
                     vm.form.defaultSearch = defaultData.data.data.default;
                     vm.list = searchDate.data.data;
                     injection.loading.finish();
-                    injection.sidebar.active('mall');
                 });
             })).catch(() => {
                 injection.loading.error();

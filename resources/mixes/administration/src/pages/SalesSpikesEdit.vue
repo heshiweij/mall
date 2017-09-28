@@ -1,12 +1,10 @@
 <script>
-    import injection from '../helpers/injection';
     import image1 from '../assets/images/img_logo.png';
     import image from '../assets/images/adv.jpg';
 
     export default {
         beforeRouteEnter(to, from, next) {
             next(() => {
-                injection.sidebar.active('mall');
             });
         },
         data() {

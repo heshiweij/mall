@@ -1,11 +1,9 @@
 <script>
-    import injection from '../helpers/injection';
     import mapData from '../maps/china';
 
     export default {
         beforeRouteEnter(to, from, next) {
             next(() => {
-                injection.sidebar.active('mall');
             });
         },
         data() {

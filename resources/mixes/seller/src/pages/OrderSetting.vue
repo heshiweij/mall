@@ -1,10 +1,7 @@
 <script>
-    import injection from '../helpers/injection';
-
     export default {
         beforeRouteEnter(to, from, next) {
             next(() => {
-                injection.sidebar.active('seller');
             });
         },
         data() {
@@ -305,11 +302,11 @@
                 });
             },
             uploadBefore() {
-                injection.loading.start();
+                this.$loading.start();
             },
             uploadError(error, data) {
                 const self = this;
-                injection.loading.error();
+                self.$loading.error();
                 if (typeof data.message === 'object') {
                     for (const p in data.message) {
                         self.$notice.error({
@@ -330,7 +327,7 @@
             },
             uploadSuccess(data) {
                 const self = this;
-                injection.loading.finish();
+                self.$loading.finish();
                 self.$notice.open({
                     title: data.message,
                 });

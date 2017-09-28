@@ -1,11 +1,9 @@
 <script>
-    import injection from '../helpers/injection';
     import image1 from '../assets/images/img_logo.png';
 
     export default {
         beforeRouteEnter(to, from, next) {
             next(() => {
-                injection.sidebar.active('seller');
             });
         },
         data() {

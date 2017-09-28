@@ -9,7 +9,6 @@
                 const data = response.data.data;
                 next(vm => {
                     injection.loading.finish();
-                    injection.sidebar.active('mall');
                     vm.form.email = data.email;
                     vm.form.logo = data.logo;
                     vm.form.phone = data.phone;

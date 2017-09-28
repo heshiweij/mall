@@ -11,7 +11,6 @@
                 next(vm => {
                     vm.form = repsonse.data.data;
                     injection.loading.finish();
-                    injection.sidebar.active('mall');
                 });
             }).catch(() => {
                 injection.loading.fail();

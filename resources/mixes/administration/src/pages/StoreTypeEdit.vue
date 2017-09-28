@@ -10,7 +10,6 @@
                 next(vm => {
                     vm.form = response.data.data;
                     injection.loading.finish();
-                    injection.sidebar.active('mall');
                 });
             }).catch(() => {
                 injection.loading.fail();

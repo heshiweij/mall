@@ -1,11 +1,9 @@
 <script>
     import expandRow from './ExpandRow.vue';
-    import injection from '../helpers/injection';
 
     export default {
         beforeRouteEnter(to, from, next) {
             next(() => {
-                injection.sidebar.active('seller');
             });
         },
         components: {

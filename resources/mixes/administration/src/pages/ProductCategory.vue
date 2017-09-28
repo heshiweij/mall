@@ -21,7 +21,6 @@
                     vm.pagination = response.data.pagination;
                     vm.parent = to.query.parent;
                     injection.loading.finish();
-                    injection.sidebar.active('mall');
                 });
             }).catch(() => {
                 injection.loading.fail();

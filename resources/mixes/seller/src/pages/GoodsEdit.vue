@@ -5,7 +5,6 @@
     export default {
         beforeRouteEnter(to, from, next) {
             next(() => {
-                injection.sidebar.active('seller');
             });
         },
         data() {

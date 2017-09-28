@@ -36,7 +36,6 @@
                     vm.form = form;
                     vm.form.category = form.category.path;
                     injection.loading.finish();
-                    injection.sidebar.active('mall');
                 });
             })).catch(() => {
                 injection.loading.fail();

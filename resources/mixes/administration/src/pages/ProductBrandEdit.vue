@@ -12,7 +12,6 @@
                     vm.form = response.data.data;
                     vm.form.recommend = vm.form.recommend === 1;
                     injection.loading.finish();
-                    injection.sidebar.active('mall');
                 });
             }).catch(() => {
                 injection.loading.fail();

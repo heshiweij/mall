@@ -23,7 +23,6 @@
                         item.loading = false;
                         return item;
                     });
-                    injection.sidebar.active('mall');
                 });
             })).catch(() => {
                 injection.loading.fail();

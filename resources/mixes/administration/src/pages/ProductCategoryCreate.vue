@@ -26,7 +26,6 @@
                         return item;
                     });
                     injection.loading.finish();
-                    injection.sidebar.active('mall');
                 });
             }).catch(() => {
                 injection.loading.fail();

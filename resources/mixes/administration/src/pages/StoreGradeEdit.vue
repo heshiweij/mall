@@ -12,7 +12,6 @@
                     form.price = parseInt(form.price, 12);
                     vm.form = form;
                     injection.loading.finish();
-                    injection.sidebar.active('mall');
                 });
             }).catch(() => {
                 injection.loading.fail();

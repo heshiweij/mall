@@ -84,7 +84,8 @@ import StoreTypeCreate from '../pages/StoreTypeCreate.vue';
 import StoreTypeEdit from '../pages/StoreTypeEdit.vue';
 
 export default function (injection) {
-    injection.useModuleRoute([
+    injection.routers = [
+        ...injection.routers,
         {
             children: [
                 {
@@ -506,5 +507,5 @@ export default function (injection) {
             component: Layout,
             path: '/mall',
         },
-    ]);
+    ];
 }

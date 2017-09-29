@@ -64,7 +64,8 @@ import ServiceReturnsDeal from '../pages/ServiceReturnsDeal.vue';
 import ServiceComplaint from '../pages/ServiceComplaint.vue';
 
 export default function (injection) {
-    injection.useModuleRoute([
+    injection.routers = [
+        ...injection.routers,
         {
             children: [
                 {
@@ -386,5 +387,5 @@ export default function (injection) {
             component: Layout,
             path: '/seller',
         },
-    ]);
+    ];
 }

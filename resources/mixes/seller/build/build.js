@@ -22,10 +22,10 @@ rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
         if (err) throw err;
         process.stdout.write(stats.toString({
                 colors: true,
-                modules: false,
-                children: false,
-                chunks: false,
-                chunkModules: false,
+                modules: true,
+                children: true,
+                chunks: true,
+                chunkModules: true,
             }) + '\n\n');
         var assetsPath = path.join(__dirname, '../../../../../../statics/assets/mall/seller');
 

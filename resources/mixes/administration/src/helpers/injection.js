@@ -15,4 +15,5 @@ function install(instance) {
 
 export default Object.assign(injection, {
     install,
+    type: 'module',
 });

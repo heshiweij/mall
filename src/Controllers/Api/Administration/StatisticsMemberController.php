@@ -21,7 +21,7 @@ class StatisticsMemberController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Statistics\Member\AreaHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function area(AreaHandler $handler)
@@ -32,7 +32,7 @@ class StatisticsMemberController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Statistics\Member\MemberHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function member(MemberHandler $handler)
@@ -43,7 +43,7 @@ class StatisticsMemberController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Statistics\Member\NewlyHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function newly(NewlyHandler $handler)

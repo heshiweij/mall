@@ -38,7 +38,7 @@ class StoreDynamicController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Store\Dynamic\ConfigurationHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function configuration(ConfigurationHandler $handler)
@@ -49,7 +49,7 @@ class StoreDynamicController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Store\Dynamic\CreateHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function create(CreateHandler $handler)
@@ -60,7 +60,7 @@ class StoreDynamicController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Store\Dynamic\DynamicHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function dynamic(DynamicHandler $handler)
@@ -71,7 +71,7 @@ class StoreDynamicController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Store\Dynamic\EditHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function edit(EditHandler $handler)
@@ -82,7 +82,7 @@ class StoreDynamicController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Store\Dynamic\ListHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function list(ListHandler $handler)
@@ -93,7 +93,7 @@ class StoreDynamicController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Store\Dynamic\RemoveHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function remove(RemoveHandler $handler)
@@ -104,7 +104,7 @@ class StoreDynamicController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Store\Dynamic\RestoreHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function restore(RestoreHandler $handler)

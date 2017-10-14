@@ -19,7 +19,7 @@ class StatisticsController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Statistics\GetHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function get(GetHandler $handler)

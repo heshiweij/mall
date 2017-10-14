@@ -20,7 +20,7 @@ class StoreInformationController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Store\Information\InformationHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function information(InformationHandler $handler)
@@ -31,7 +31,7 @@ class StoreInformationController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Store\Information\RenewHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function renew(RenewHandler $handler)

@@ -22,7 +22,7 @@ class StatisticsStoreController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Statistics\Store\AreaHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function area(AreaHandler $handler)
@@ -33,7 +33,7 @@ class StatisticsStoreController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Statistics\Store\HotsHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function hots(HotsHandler $handler)
@@ -44,7 +44,7 @@ class StatisticsStoreController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Statistics\Store\NewlyHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function newly(NewlyHandler $handler)
@@ -55,7 +55,7 @@ class StatisticsStoreController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Statistics\Store\SalesHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function sales(SalesHandler $handler)

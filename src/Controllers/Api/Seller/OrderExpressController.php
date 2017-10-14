@@ -22,7 +22,7 @@ class OrderExpressController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Order\OrderExpress\ConfigurationHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function configuration(ConfigurationHandler $handler)
@@ -33,7 +33,7 @@ class OrderExpressController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Order\OrderExpress\DeliveryHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function delivery(DeliveryHandler $handler)
@@ -44,7 +44,7 @@ class OrderExpressController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Order\OrderExpress\OrderHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function order(OrderHandler $handler)
@@ -55,7 +55,7 @@ class OrderExpressController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Order\OrderExpress\TemplateHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function template(TemplateHandler $handler)

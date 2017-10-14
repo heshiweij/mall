@@ -32,7 +32,7 @@ class OrderExchangeController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Order\Exchange\ConfirmHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function confirm(ConfirmHandler $handler)
@@ -43,7 +43,7 @@ class OrderExchangeController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Order\Exchange\FinishHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function finish(FinishHandler $handler)
@@ -54,7 +54,7 @@ class OrderExchangeController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Order\Exchange\ListHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function list(ListHandler $handler)
@@ -65,7 +65,7 @@ class OrderExchangeController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Order\Exchange\SendHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function send(SendHandler $handler)

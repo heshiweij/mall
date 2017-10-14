@@ -21,7 +21,7 @@ class StatisticsAnalysisController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Statistics\Analysis\DashBoardHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function dashboard(DashBoardHandler $handler)
@@ -32,7 +32,7 @@ class StatisticsAnalysisController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Statistics\Analysis\IndustryHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function industry(IndustryHandler $handler)
@@ -43,7 +43,7 @@ class StatisticsAnalysisController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Statistics\Analysis\PriceHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function price(PriceHandler $handler)

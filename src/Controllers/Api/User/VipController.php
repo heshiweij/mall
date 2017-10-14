@@ -19,7 +19,7 @@ class VipController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\User\Vip\VipHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function vip(VipHandler $handler)

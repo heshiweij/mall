@@ -22,7 +22,7 @@ class StoreController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Store\ApplyHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      */
     public function apply(ApplyHandler $handler)
     {
@@ -32,7 +32,7 @@ class StoreController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Store\ListHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function list(ListHandler $handler)
@@ -43,7 +43,7 @@ class StoreController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Store\StoreHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function store(StoreHandler $handler)
@@ -54,7 +54,7 @@ class StoreController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Store\TypeHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      */
     public function type(TypeHandler $handler)
     {

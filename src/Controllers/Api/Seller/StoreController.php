@@ -28,7 +28,7 @@ class StoreController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Store\RenewHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function renew(RenewHandler $handler)
@@ -39,7 +39,7 @@ class StoreController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Store\StoreHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function store(StoreHandler $handler)

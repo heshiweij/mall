@@ -21,7 +21,7 @@ class StoreConfigurationController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Store\Configuration\CarouselHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function carousel(CarouselHandler $handler)
@@ -32,7 +32,7 @@ class StoreConfigurationController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Store\Configuration\ConfigurationHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function configuration(ConfigurationHandler $handler)
@@ -43,7 +43,7 @@ class StoreConfigurationController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Store\Configuration\SettingsHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function settings(SettingsHandler $handler)

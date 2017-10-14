@@ -30,7 +30,7 @@ class OrderRefundController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Order\Refund\ConfirmHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function confirm(ConfirmHandler $handler)
@@ -41,7 +41,7 @@ class OrderRefundController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Order\Refund\FinishHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function finish(FinishHandler $handler)
@@ -52,7 +52,7 @@ class OrderRefundController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Order\Refund\ListHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function list(ListHandler $handler)

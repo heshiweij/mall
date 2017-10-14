@@ -34,7 +34,7 @@ class StoreBrandController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Product\Brand\ApplyHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function apply(ApplyHandler $handler)
@@ -45,7 +45,7 @@ class StoreBrandController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Product\Brand\BrandHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function brand(BrandHandler $handler)
@@ -56,7 +56,7 @@ class StoreBrandController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Product\Brand\EditHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function edit(EditHandler $handler)
@@ -67,7 +67,7 @@ class StoreBrandController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Product\Brand\ListHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function list(ListHandler $handler)
@@ -78,7 +78,7 @@ class StoreBrandController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Seller\Product\Brand\RevokeHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function revoke(RevokeHandler $handler)

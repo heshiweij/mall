@@ -20,7 +20,7 @@ class StatisticsSalesController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Statistics\Sales\IncomeHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function income(IncomeHandler $handler)
@@ -31,7 +31,7 @@ class StatisticsSalesController extends Controller
     /**
      * @param \Notadd\Mall\Handlers\Administration\Statistics\Sales\OrderHandler $handler
      *
-     * @return \Notadd\Foundation\Passport\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
+     * @return \Notadd\Foundation\Routing\Responses\ApiResponse|\Psr\Http\Message\ResponseInterface|\Zend\Diactoros\Response
      * @throws \Exception
      */
     public function order(OrderHandler $handler)
